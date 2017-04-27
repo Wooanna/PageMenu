@@ -128,7 +128,7 @@ open class CAPSPageMenu: UIViewController, UIScrollViewDelegate, UIGestureRecogn
     // MARK: - Properties
     
     var menuScrollView = UIScrollView()
-    var controllerScrollView = UIScrollView()
+   open var controllerScrollView = UIScrollView()
     var controllerArray : [UIViewController] = []
     var menuItems : [MenuItemView] = []
     var menuItemWidths : [CGFloat] = []
